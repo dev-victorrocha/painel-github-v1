@@ -1,0 +1,102 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor1: #0D1117;
+    --cor2: #161B22;
+    --cor3: rgb(100, 3, 100);
+    --fonte-titulo: 'Bebas Neue', 'cursive';
+    --fonte-padrao: 'Arial', 'Verdana', 'Helvetica', 'sans-serif';
+}
+
+body {
+    font-family: var(--fonte-padrao);
+    background-color: rgba(100, 3, 100, 0.13);
+    max-width: 1322px;
+    min-width: 410px;
+    margin: auto;
+}
+
+h1 {
+    font-family: var(--fonte-titulo);
+}
+
+h2 {
+    font-family: var(--fonte-titulo);
+    font-size: 2em;
+    text-align: center;
+    padding: 5px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    width: 25%;
+}
+
+/* header */
+header {
+    text-align: center;
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    max-width: 1800px;
+    padding: 10px;
+}
+
+header > h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: white;
+    padding-top: 10px;
+}
+
+header > p {
+    font-size: 1.3em;
+    margin-bottom: 7px;
+}
+
+/* main */
+main {
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    max-width: 100%;
+}
+
+#info {
+    font-size: 1.2em;
+}
+
+.cima {
+    background-color: rgba(0, 0, 0, 0.322);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+/* footer */
+footer {
+    color: white;
+    text-align: center;
+    padding: 5px;
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    max-width: 100%;
+    margin: auto;
+    display: block;
+}
