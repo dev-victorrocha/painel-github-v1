@@ -48,6 +48,15 @@ a:hover {
     text-decoration: underline;
 }
 
+.link_texto {
+    text-decoration: none;
+    color: black;
+}
+
+.link_texto:hover {
+    text-decoration: underline;
+}
+
 img {
     width: 25%;
 }
